@@ -1,0 +1,21 @@
+<!DOCTYPE  html>
+<html>
+<body>
+<script>
+let  marca,modelo,descuento  =  0; marca  =  prompt("de que centro eres  ",  "0");
+modelo  =  prompt("que edad tienes?",  "0");
+
+if  ((marca=="fp")  &&  (modelo  >="18"))
+{
+descuento  = "usted puede acceder Bienvenid@";
+}
+
+if  ((marca=="fp")  &&  (modelo  <"18"))
+{
+descuento  =  "denegado";
+}
+
+document.write(`<h3> ${descuento}  </h3>`);
+</script>
+</body>
+</html>
